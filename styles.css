@@ -67,3 +67,15 @@
     padding: 0 20rem 0 0;
     line-height: 2rem;
 }
+
+.contact-links {
+    padding: 4px 8px;
+    border-radius: 4px;
+    outline: 1px solid #333333;
+}
+
+.contact-links:hover {
+    background-color: red;
+    color: white;
+    transition: all 0.3s ease-in;
+}
