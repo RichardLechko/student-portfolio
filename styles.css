@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container .hero {
+    text-align: center;
+}
+
+.skills .skills-list {
+    gap: 60px;
+    list-style-type: none;
+    display: flex;
+}
+
+.skills .skills-list li {
+    padding: 4px 8px;
+    background-color: #333333;
+    color: white;
+    border-radius: 4px;
+}
