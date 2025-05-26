@@ -28,3 +28,31 @@
     color: white;
     border-radius: 4px;
 }
+
+.projects-skills-list {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: -2.5rem;
+}
+
+.projects-skills-list li {
+    outline: 1px solid #c0c0c0;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.projects-header {
+    display: flex;
+   
+}
+
+.projects-header p {
+     margin: auto 0 auto 0.5rem;
+}
+
+.project-description {
+    padding: 0 20rem 0 0;
+    line-height: 2rem;
+}
